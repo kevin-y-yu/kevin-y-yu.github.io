@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">Linear regression</title>
+  <desc id="desc">A straight fitted line through scattered observations, with vertical residuals.</desc>
+  <rect width="640" height="400" fill="#F1F2F4"/>
+<path d="M80 58V310H565" fill="none" stroke="#C4C7CE" stroke-width="3"/>
+<path d="M80 228H565M80 146H565M80 64H565" fill="none" stroke="#E4E6EA" stroke-width="2"/>
+<path d="M115 276V278.6" stroke="#C4C7CE" stroke-width="3"/>
+<path d="M153 233V260.0" stroke="#C4C7CE" stroke-width="3"/>
+<path d="M183 250V245.3" stroke="#C4C7CE" stroke-width="3"/>
+<path d="M222 204V226.2" stroke="#C4C7CE" stroke-width="3"/>
+<path d="M263 214V206.1" stroke="#C4C7CE" stroke-width="3"/>
+<path d="M289 160V193.4" stroke="#C4C7CE" stroke-width="3"/>
+<path d="M333 184V171.8" stroke="#C4C7CE" stroke-width="3"/>
+<path d="M372 120V152.7" stroke="#C4C7CE" stroke-width="3"/>
+<path d="M404 146V137.0" stroke="#C4C7CE" stroke-width="3"/>
+<path d="M448 86V115.5" stroke="#C4C7CE" stroke-width="3"/>
+<path d="M484 107V97.8" stroke="#C4C7CE" stroke-width="3"/>
+<path d="M531 63V74.8" stroke="#C4C7CE" stroke-width="3"/>
+<path d="M98 287L550 65" fill="none" stroke="#0000CD" stroke-width="7"/>
+<circle cx="115" cy="276" r="8" fill="#161A1D" stroke="#F1F2F4" stroke-width="3"/>
+<circle cx="153" cy="233" r="8" fill="#161A1D" stroke="#F1F2F4" stroke-width="3"/>
+<circle cx="183" cy="250" r="8" fill="#161A1D" stroke="#F1F2F4" stroke-width="3"/>
+<circle cx="222" cy="204" r="8" fill="#161A1D" stroke="#F1F2F4" stroke-width="3"/>
+<circle cx="263" cy="214" r="8" fill="#161A1D" stroke="#F1F2F4" stroke-width="3"/>
+<circle cx="289" cy="160" r="8" fill="#161A1D" stroke="#F1F2F4" stroke-width="3"/>
+<circle cx="333" cy="184" r="8" fill="#161A1D" stroke="#F1F2F4" stroke-width="3"/>
+<circle cx="372" cy="120" r="8" fill="#161A1D" stroke="#F1F2F4" stroke-width="3"/>
+<circle cx="404" cy="146" r="8" fill="#161A1D" stroke="#F1F2F4" stroke-width="3"/>
+<circle cx="448" cy="86" r="8" fill="#161A1D" stroke="#F1F2F4" stroke-width="3"/>
+<circle cx="484" cy="107" r="8" fill="#161A1D" stroke="#F1F2F4" stroke-width="3"/>
+<circle cx="531" cy="63" r="8" fill="#161A1D" stroke="#F1F2F4" stroke-width="3"/>
+</svg>
