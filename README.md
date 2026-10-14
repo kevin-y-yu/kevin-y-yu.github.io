@@ -37,3 +37,5 @@ python3 -m http.server 8000 --bind 127.0.0.1
 4. Later updates: edit, commit, `git push`.
 
 Design inspired by [Jon Barron's website](https://jonbarron.info/).
+
+- **Links:** give every external link `target="_blank" rel="noopener"` so it opens in a new tab; leave `mailto:` links alone.
