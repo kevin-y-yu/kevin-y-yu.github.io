@@ -90,24 +90,45 @@ p {
   margin: 0 0 0.9rem;
 }
 
-/* Header: text left, photo right */
-.intro {
-  display: flex;
-  align-items: flex-start;
-  gap: 2rem;
-}
-
-.intro-text {
-  flex: 1 1 auto;
-  min-width: 0;
+/* Header: photo floats right, text wraps around it */
+.intro::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .contact {
   margin-top: 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.contact a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.25rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  background: var(--placeholder-bg);
+}
+
+.contact svg {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
 }
 
 .intro-photo {
-  flex: 0 0 180px;
+  float: right;
+  margin: 0 0 1rem 2rem;
 }
 
 .intro-photo img {
@@ -228,18 +249,13 @@ footer {
     font-size: 1.7rem;
   }
 
-  .intro {
-    flex-direction: column-reverse;
-    align-items: center;
-    gap: 1.25rem;
-  }
-
-  .intro-text {
-    width: 100%;
-  }
-
   .intro-photo {
-    flex: none;
+    float: none;
+    margin: 0 0 1.25rem;
+  }
+
+  .intro-photo img {
+    margin: 0 auto;
   }
 
   .intro-photo img {
